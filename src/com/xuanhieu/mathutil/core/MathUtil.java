@@ -15,6 +15,22 @@ public class MathUtil {
     //chọn thiết kế là hàm static
 
     //hàm tính giai thừa
+//    public static long getFatorial(int n) {
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("Invalid argument. N must be between 0...20");
+//        }
+//
+//        if (n == 0 || n == 1) {
+//            return 1;
+//        }
+//
+//        long product = 1;
+//        for (int i = 2; i <= n; i++) {
+//            product *= i;
+//        }
+//        
+//        return product;
+//    }
     public static long getFatorial(int n) {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid argument. N must be between 0...20");
@@ -24,11 +40,8 @@ public class MathUtil {
             return 1;
         }
 
-        long product = 1;
-        for (int i = 2; i <= n; i++) {
-            product *= i;
-        }
-        
-        return product;
+        return n * getFatorial(n - 1);
     }
+    //test hồi quy (Regression Test) là test lại những thứ
+    //đã test coi mày còn ổn không , còn XANH không
 }
