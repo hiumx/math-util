@@ -1,4 +1,4 @@
-package com.xuanhieu.mathutil.test.core;
+    package com.xuanhieu.mathutil.test.core;
 
 import com.xuanhieu.mathutil.core.MathUtil;
 import org.junit.Assert;
