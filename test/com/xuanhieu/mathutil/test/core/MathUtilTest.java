@@ -35,7 +35,7 @@ public class MathUtilTest {
         Assert.assertEquals(2, MathUtil.getFatorial(2));
         Assert.assertEquals(6, MathUtil.getFatorial(3));
         Assert.assertEquals(24, MathUtil.getFatorial(4));
-        Assert.assertEquals(120, MathUtil.getFatorial(5));
+        Assert.assertEquals(720, MathUtil.getFatorial(5));
 
     }
 

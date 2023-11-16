@@ -6,10 +6,7 @@ package com.xuanhieu.mathutil.main;
 
 import com.xuanhieu.mathutil.core.MathUtil;
 
-/**
- *
- * @author Admin
- */
+
 public class Main {
     public static void main(String[] args) {
         
